@@ -1,0 +1,21 @@
+<username>/SimplePHPApp:
+  # This Basic Distelli Manifest assumes the following
+  # has been provisioned on the destination deploy server:
+  #
+  # OS: CentOS
+  # Installed Packages:
+  #   php >= 5.0   [sudo yum install php]
+  #
+
+  Env:
+    - PORT: "8006"
+
+  PkgInclude:
+    - simpleapp.php
+
+  PreInstall:
+    - echo "Beginning PreInstall"
+
+  Exec:
+    - 'php -S 0.0.0.0:$PORT simpleapp.php'
+
