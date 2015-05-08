@@ -15,6 +15,9 @@
 
   PreInstall:
     - echo "Beginning PreInstall"
+    # If your destination server does not have PHP installed
+    # You can unremark the below line to preinstall on deployment
+    #- sudo yum install php
 
   Exec:
     - 'php -S 0.0.0.0:$PORT simpleapp.php'
