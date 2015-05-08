@@ -1,12 +1,12 @@
-<username>/SimplePHPApp:
+<username>/PHPCentOSSimpleApp:
   # This Basic Distelli Manifest assumes the following
   # has been provisioned on the destination deploy server:
   #
-  # OS: Ubuntu
+  # OS: CentOS
   # Installed Packages:
-  #   php >= 5.0   [sudo apt-get install php5-cli]
+  #   php >= 5.0   [sudo yum install php]
   #
-
+  
   Env:
     - PORT: "8006"
 
