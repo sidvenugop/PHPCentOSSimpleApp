@@ -4,7 +4,7 @@
   #
   # OS: CentOS
   # Installed Packages:
-  #   php >= 5.0   [sudo yum install php]
+  #   php >= 5.4   [sudo yum install php]
   #
   
   Env:
