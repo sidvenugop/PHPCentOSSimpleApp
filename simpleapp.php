@@ -4,5 +4,5 @@
   $uptime = explode(',', $uptime[1]);
   $uptime = $uptime[0];
 
-  echo "Welcome!  You have successfully deployed your PHP application. Server Uptime $uptime" ;
+  echo "Hello World !  You have successfully deployed your PHP application. Server Uptime $uptime" ;
 ?>
